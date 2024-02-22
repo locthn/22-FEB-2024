@@ -1,0 +1,17 @@
+Flow ID,Name,Description,Test Steps,Flow Priority
+1,Verify Successful Checkout Process for Selected Product,"Navigate to the home page, login, and proceed to the shop page. Select a product and add it to the basket. Complete the checkout process and verify the product page.","step 1: Navigate to https://eco.aut.katalon.com/
+step 2: Login
+step 3: Click on link 'Shop' -> Navigate to page 'shop'
+step 4: Click on div  -> Navigate to page 'product/*'
+step 5: Click on div
+step 6: Click on div 'react-select-2-option-1'
+step 7: Click on button 'Add To Basket'
+step 8: Click on svg
+step 9: Click on button 'CHECK OUT'
+step 10: Take full page screenshot as checkpoint",High
+2,Verify Display of Product Details after Selection,"Navigate to the home page, login, and access the shop page. View more items and select a product to verify its details on the product page.","step 1: Navigate to https://eco.aut.katalon.com/
+step 2: Login
+step 3: Click on link 'Shop' -> Navigate to page 'shop'
+step 4: Click on button 'Show More Items'
+step 5: Click on image  -> Navigate to page 'product/*'
+step 6: Take full page screenshot as checkpoint",Trivial
